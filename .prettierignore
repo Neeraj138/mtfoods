@@ -1,0 +1,80 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+.next/
+out/
+
+# Generated files
+*.min.js
+*.min.css
+*.bundle.js
+*.bundle.css
+
+# Package manager files
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output/
+
+# ESLint cache
+.eslintcache
+
+# Vite build outputs
+apps/ui/dist/
+
+# TypeScript build outputs
+apps/server/dist/
+
+# Temporary folders
+tmp/
+temp/
+
+# Auto-generated files
+components.json
+tailwind.config.js
+postcss.config.js
+
+# Storybook build outputs
+storybook-static/
+
+# Documentation build outputs
+docs/build/
+
+# Test outputs
+test-results/
+playwright-report/
